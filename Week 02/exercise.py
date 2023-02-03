@@ -16,6 +16,5 @@ amount1 = 180
 cen = float ((amount + amount1)/100)
 euro = u"\u20ac"
 
-#print (euro + str(cen))
+print("The sum of these is " f"{euro}" f"{cen}")
 
-print("the sum of these is " + cen + f"{euro}
